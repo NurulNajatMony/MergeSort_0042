@@ -67,6 +67,15 @@ void input() {
             B[k] = arr[i];     //step 4.f.i
             i++;               //step 4.f.ii
             k++;               //step 4.f.iii
+        
+        }
+
+        //step 5
+        for (int x = low; x <= high; x++) {
+            arr[x] = B[x];
+        }
+}
+    
     
     
     
